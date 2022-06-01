@@ -9,4 +9,8 @@ The easiest way to create a Git branch is to use the “git checkout” command 
 
 git checkout -b <branch-name>
 
+to switch the branch using  git checkout newbranch
 
+#Use the -m flag to change the name of the branch
+
+ # git branch -m new-branch-name
