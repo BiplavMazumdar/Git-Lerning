@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Hello I am Learning Gitl
+=======
+Hello I am Learning Git
+>>>>>>> 0854fb4da47ae01ae75c0528eef89deef513c62b
