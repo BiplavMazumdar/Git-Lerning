@@ -14,3 +14,15 @@ to switch the branch using  git checkout newbranch
 #Use the -m flag to change the name of the branch
 
  # git branch -m new-branch-name
+
+# What Does git init Do?
+
+git init is one way to start a new project with Git. To start a repository, use either git init or git clone - not both.
+
+Common usages and options for git init
+
+git init: Transform the current directory into a Git repository
+
+git init <directory>: Transform a directory in the current path into a Git repository
+
+git init --bare: Create a new bare repository (a repository to be used as a remote repository only, that won't contain active development)
