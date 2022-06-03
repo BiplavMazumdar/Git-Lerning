@@ -85,5 +85,8 @@ export async function getServerSideProps(context) {
 }
 
 
+# remove file or delete file after staging or after adding
+git rm -f file.txt  //filename
+
 
 
