@@ -90,6 +90,49 @@ git rm -f file.txt  //filename
 
 it will delete file from the local if we want to update again we have to push
 
+# git log
+This command is used to list the version history for the current branch.
+
+you will get commitID
+
+# git log –follow[file]
+This command lists version history for a file, including the renaming of files also.
+
+# git show [commit]
+under commit you have to give commitID = 52fbf194ab323b219e3fa55818e969187285b2e8
+
+This command shows the metadata and content changes of the specified commit.
+
+if we click on q it will quit the terminal
+
+# git branch  
+This command lists all the local branches in the current repository.
+
+# git merge [branch name]
+This command merges the specified branch’s history into the current branch.
+
+# git remote
+# git remote add [variable name] [Remote Server Link] 
+This command is used to connect your local repository to the remote server.
+
+# git push –all [variable name]
+This command pushes all branches to your remote repository.
+
+# git push [variable name] :[branch name] 
+This command deletes a branch on your remote repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
