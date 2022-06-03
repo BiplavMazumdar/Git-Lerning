@@ -88,5 +88,9 @@ export async function getServerSideProps(context) {
 # remove file or delete file after staging or after adding
 git rm -f file.txt  //filename
 
+it will delete file from the local if we want to update again we have to push
+
+
+
 
 
