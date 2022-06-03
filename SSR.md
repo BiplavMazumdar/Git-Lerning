@@ -56,3 +56,34 @@ An application has a very simple UI with fewer pages/features
 An application has less dynamic data
 Read preference of the site is more than write
 The focus is not on rich sites and has few users
+
+
+# when ever user visit out website the problem is javascript load 
+
+if you use react and without using any framework react will send entire bundel to the user browser 
+due to this page load slow down 
+
+# implement ssr in website 
+
+export async function getServerSideProps(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+
+
+# implement ssr
+
+# getServerSideProps
+
+If you export a function called getServerSideProps (Server-Side Rendering) from a page, Next.js will pre-render this page on each request using the data returned by getServerSideProps.
+
+export async function getServerSideProps(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+
+
+
+
