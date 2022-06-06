@@ -55,6 +55,28 @@ This command discards all history and goes back to the specified commit.
 # git rm [file]
 git rm command removes a file from a Git repository.
 
+# How to go to previous commit 
+
+if we want to go to previous commit use git log
+
+
+# git log
+commit f1ad3817b9f704379286a57884895a2f57a9c713
+
+after getting commit number we can use the comment 
+
+# git revert f1ad3817b9f704379286a57884895a2f57a9c713 (commit number)
+
+# if we get merget conflit then we can use 
+
+# git reset
+
+
+
+
+
+
+
 
 
 
