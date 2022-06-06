@@ -71,6 +71,32 @@ after getting commit number we can use the comment
 
 # git reset
 
+# git config    for config the email 
+
+# git init      initiate the git 
+
+# git clone     for cloning the other project 
+
+# git diff      Show changes between commits, commit and working tree, etc
+
+To review, git reset is a powerful command that is used to undo local changes to the state of a Git repo.
+Git reset operates on "The Three Trees of Git". These trees are the Commit History (HEAD), the Staging Index, and the Working Directory.
+
+The options --soft, --mixed, and --hard can be passed to git reset.
+
+# git rm         is used to remove a file from a Git repository.
+
+# Git log        Git log is a utility tool to review and read a history of everything that happens to a                repository. 
+
+# git show    
+a command line utility that is used to view expanded details on Git objects such as blobs, trees, tags, and commits.
+
+
+
+
+
+
+
 
 
 
