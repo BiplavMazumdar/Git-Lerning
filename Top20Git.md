@@ -113,4 +113,3 @@ a command line utility that is used to view expanded details on Git objects such
 
 
 
-

@@ -28,7 +28,11 @@ require(block.timestamp < deadline,"Contract time is over");
 
 it will check contract is available or not if avaliable than implement otherwise it will give this Contract over message
 
+# msg.sender
 
+contributors[msg.sender]+= msg.value;
+
+msg.sender  =   no of wei send with the message 
 
 
  
