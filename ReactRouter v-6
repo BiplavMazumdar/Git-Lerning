@@ -1,0 +1,45 @@
+React Router V-6
+
+Brouser router 
+to connect our app with the url we have to import Brouser router
+
+componet should be under Brouser router
+
+Routes  :- here Rpotes means path 
+Route :- under routes we have to give the route. In Route we have to give the path and element 
+
+element :- In this v-6 we are able to give html tags 
+
+<BrouserRouter>
+<Routes>
+<Route path = "/" elements = {<div> Home Page </div>} />
+<Route path = "/About" = {<div>About Page</div>} />                                     //also if we want to remove / from "About" we can it will work 
+</Routes>
+</BrouserRouter>
+
+
+
+React Router Page Component 
+Import Home page wala component 
+<Homepage />
+
+<BrouserRouter>
+<Routes>
+<Route path = "/" elements = {<Homepage />}/>
+<Route path = "About" = {<div>About Page</div>} />                                    
+</Routes>
+</BrouserRouter>
+
+
+React Router v6 Link component | Navigate to page without page reload 
+
+we have to import {Link} from "react router-dom";
+
+<div>
+<li>
+<Link to = "/About"> About </Link>
+</li>
+</div>
+
+React Router v6 Tutorial in Hindi #4: NavLink Component | Default Active Class for Current Page
+
